@@ -189,6 +189,7 @@ def genera_popolazione_inziale(offerte_codificate, num_popolazione_iniziale):
 
 
 '''
+Utilizziamo questa funzione per ordinare due individui in base al relativo valore di fitness
 '''
 def compara_individui(individuo1, individuo2):
     if individuo1[1] < individuo2[1]:
